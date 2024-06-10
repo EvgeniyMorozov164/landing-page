@@ -3,3 +3,104 @@
   margin: 0;
   box-sizing: border-box;
 }
+
+body {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;    
+  min-height: 100vh;
+  width: 100%;  
+}
+
+.hero,
+.footer {
+  background-color: #1F2937;
+}
+
+.main {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;  
+  width: 100%;
+  
+  flex: 1;  
+}
+
+.hero {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;  
+  width: 100%;
+  padding: 20px 80px 80px 80px;
+}
+
+.header,
+.navbar-list {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;  
+}
+
+.header {
+  width: 100%;
+  margin-bottom: 80px;
+}
+
+.header-logo {
+  color: #F9FAF8;
+  font-size: 24px;
+}
+
+.navbar-list {
+  list-style: none;
+  gap: 20px;
+}
+
+a {
+  text-decoration: none;
+}
+
+.hero-text,
+.nav-link{
+  font-size: 18px;
+  color: #E5E7EB;
+}
+
+.hero-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+}
+
+.hero-title {
+  color: #F9FAF8;
+  font-size: 48px;
+  font-weight: 900;
+}
+
+.hero-text {
+  margin-bottom: 10px;
+}
+
+.hero-img-container {
+  width: 400px;
+  height: 200px;
+  background-image: url("./img/umbrellawallpaper.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  flex-shrink: 0;
+}
+
+button {
+  background-color: #3882F6;
+  color: white;
+  padding: 5px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
