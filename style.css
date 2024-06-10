@@ -198,10 +198,19 @@ blockquote {
 }
 
 .sign-up-title,
-.sign-up-text {
+.sign-up-text,
+.footer {
   color: #F9FAF8;
 }
 
 .sign-up-btn-2 {
   border: 1px solid #F9FAF8;
+}
+
+.footer {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 40px 0 40px 0;
 }
