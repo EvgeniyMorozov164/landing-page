@@ -74,6 +74,7 @@ a {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  gap: 20px;
   width: 100%;
 }
 
@@ -104,4 +105,48 @@ button {
   border: none;
   border-radius: 5px;
   cursor: pointer;
+}
+
+.some-info {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  padding-top: 30px;
+}
+
+.info-title {
+  font-size: 36px;
+  color: #1F2937;
+  font-weight: 900;
+  margin-bottom: 30px;
+}
+
+.content {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex: 0;
+  gap: 40px;
+}
+
+.content-item {
+  width: 150px;
+}
+
+.item-img {
+  width: 150px;
+  height: 150px;
+  border: 2px solid #3882F6;
+  border-radius: 10px;
+  background-color: black;
+  background-image: url("./img/kisspng-resident-evil-the-umbrella-chronicles-umbrella-co-5c65bc4915da90.4392766615501712090895.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.content-text {
+  padding-top: 5px;
+  text-align: center;
 }
