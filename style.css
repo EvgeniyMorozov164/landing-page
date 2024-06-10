@@ -180,3 +180,28 @@ blockquote {
   font-style: normal;
   font-weight: 900;
 }
+
+.sign-up-container {
+  width: 100%;
+  padding: 100px 0 100px 0;
+}
+
+.sing-up-content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 40px 100px;
+  margin: 0 auto;
+  max-width: 900px;
+  background-color: #3882F6;
+  border-radius: 10px;
+}
+
+.sign-up-title,
+.sign-up-text {
+  color: #F9FAF8;
+}
+
+.sign-up-btn-2 {
+  border: 1px solid #F9FAF8;
+}
